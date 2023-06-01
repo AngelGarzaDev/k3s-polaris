@@ -1,6 +1,25 @@
 # k3s-polaris
 
-This is a K3S deployment of Polaris I created. The docker deployment and documentation I used to create this deployment can be found [here](https://github.com/ogarcia/docker-polaris).)
+This project provides a K3S deployment of Polaris, which serves as an introduction to the world of Kubernetes. The deployment utilizes the [docker-polaris](https://github.com/ogarcia/docker-polaris) project and its documentation.
 
-This deployment is specific to my environment and does not contain any variables, it will most likely require some changes to work in your environment. 
-You can find additional documentation on my environemnt and how to easily replicate it [here](https://github.com/techno-tim/k3s-ansible)
+
+
+## Getting Started
+
+Before getting started, please note that this deployment is specific to my environment and lacks any configurable variables. Therefore, you'll likely need to make some modifications to adapt it to your own environment. For detailed instructions on setting up and replicating my environment easily, refer to the [k3s-ansible](https://github.com/techno-tim/k3s-ansible) repository.
+
+
+## Deployment
+
+Clone repository and cd into the directory
+
+Run the following command
+  kubectl apply -f ./polaris.yml
+
+
+## Contribution
+
+Contributions are always welcome! If you have any suggestions, improvements, or bug fixes, feel free to open an issue or submit a pull request.
+License
+
+This project is licensed under the MIT License.
