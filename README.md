@@ -8,11 +8,9 @@ Before getting started, please note that this deployment is specific to my envir
 
 ## Deployment
 
-Clone repository and cd into the directory
+Clone repository and deploy using kubectl
 
-Run the following command
-  kubectl apply -f ./polaris.yml
-
+```git clone https://github.com/AngelGarzaDev/k3s-polaris.git && sudo kubectl apply -f./k3s-polaris/polaris.yml```
 
 ## Contribution
 
